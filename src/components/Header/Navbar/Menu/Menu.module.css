@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  /* flex-direction: column; */
+  gap: 5px;
+  position: relative;
+}
+
+.text {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.text:hover {
+  color: #d7b399;
+}
+
+.text:active {
+  color: #212121;
+}

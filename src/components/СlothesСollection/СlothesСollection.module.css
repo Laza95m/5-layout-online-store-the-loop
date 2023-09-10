@@ -1,0 +1,20 @@
+.section {
+  background: #f4f4f4;
+}
+
+.container {
+  max-width: 1110px;
+  width: 100%;
+  max-height: 255px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    max-height: 510px;
+    min-height: 510px;
+    flex-direction: column;
+  }
+}

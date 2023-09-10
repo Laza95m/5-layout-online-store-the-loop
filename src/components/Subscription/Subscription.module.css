@@ -1,0 +1,101 @@
+.section {
+  background: #212121;
+  padding: 70px 0;
+  margin: 150px 0;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 475px;
+  width: 100%;
+}
+
+.btn_email::placeholder {
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.btn_email {
+  background: #f9f6f1;
+  font-family: Montserrat;
+  letter-spacing: 0.02em;
+  font-size: 14px;
+  font-weight: 500;
+  color: #8d8d8d;
+  max-width: 255px;
+  width: 100%;
+  padding: 13px 0 12px 20px;
+  transition: 0.3s;
+  border: 1px #f9f6f1 solid;
+}
+
+.btn_email:focus {
+  background: #212121;
+}
+
+.btn_subscribe {
+  background: #d7b399;
+  border: 1px #d7b399 solid;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  color: #ffffff;
+  padding: 12px 13.45px 11px 14px;
+  cursor: pointer;
+  transition: 0.3s;
+  max-width: 185px;
+  width: 100%;
+}
+
+.btn_subscribe:hover {
+  background: #212121;
+}
+
+.btn_subscribe:active {
+  background: #d7b399;
+}
+
+@media screen and (max-width: 1000px) {
+  .section {
+    margin: 100px 0;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 525px) {
+  .section {
+    margin: 50px 0;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: 26px;
+  }
+}
